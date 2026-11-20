@@ -1,0 +1,2 @@
+ALTER TABLE public.favorites DROP CONSTRAINT favorites_student_id_fkey;
+ALTER TABLE public.applications DROP CONSTRAINT applications_student_id_fkey;

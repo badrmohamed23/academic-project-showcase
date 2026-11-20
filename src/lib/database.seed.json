@@ -1,0 +1,578 @@
+{
+  "auth": {
+    "users": [
+      {
+        "id": "00000000-0000-0000-0000-000000000001",
+        "email": "admin@guc.edu.eg",
+        "password": "Admin1234!",
+        "first_name": "System",
+        "last_name": "Admin",
+        "company_name": null,
+        "role": "admin",
+        "is_active": true,
+        "avatar_url": null,
+        "created_at": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000002",
+        "email": "student@guc.edu.eg",
+        "password": "Student1234!",
+        "first_name": "Nour",
+        "last_name": "Hassan",
+        "company_name": null,
+        "role": "student",
+        "is_active": true,
+        "avatar_url": null,
+        "created_at": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000003",
+        "email": "amr.elwan@guc.edu.eg",
+        "password": "Instructor1234!",
+        "first_name": "Amr",
+        "last_name": "Elwan",
+        "company_name": null,
+        "role": "instructor",
+        "is_active": true,
+        "avatar_url": null,
+        "created_at": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000005",
+        "email": "aya.salem@guc.edu.eg",
+        "password": "Instructor1234!",
+        "first_name": "Aya",
+        "last_name": "Salem",
+        "company_name": null,
+        "role": "instructor",
+        "is_active": true,
+        "avatar_url": null,
+        "created_at": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000006",
+        "email": "karim.mohamed@guc.edu.eg",
+        "password": "Instructor1234!",
+        "first_name": "Karim",
+        "last_name": "Mohamed",
+        "company_name": null,
+        "role": "instructor",
+        "is_active": true,
+        "avatar_url": null,
+        "created_at": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000007",
+        "email": "mina.fahmy@guc.edu.eg",
+        "password": "Instructor1234!",
+        "first_name": "Mina",
+        "last_name": "Fahmy",
+        "company_name": null,
+        "role": "instructor",
+        "is_active": true,
+        "avatar_url": null,
+        "created_at": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000004",
+        "email": "employer@acme.com",
+        "password": "Employer1234!",
+        "first_name": "Sara",
+        "last_name": "Ahmed",
+        "company_name": "Acme Technologies",
+        "role": "employer",
+        "is_active": true,
+        "avatar_url": null,
+        "created_at": "2026-05-08T00:00:00.000Z"
+      }
+    ],
+    "currentUserId": null,
+    "pendingResetEmail": null
+  },
+  "tables": {
+    "profiles": [
+      {
+        "id": "00000000-0000-0000-0000-000000000001",
+        "email": "admin@guc.edu.eg",
+        "first_name": "System",
+        "last_name": "Admin",
+        "company_name": null,
+        "is_active": true,
+        "avatar_url": null,
+        "created_at": "2026-05-08T00:00:00.000Z",
+        "updated_at": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000002",
+        "email": "student@guc.edu.eg",
+        "first_name": "Nour",
+        "last_name": "Hassan",
+        "company_name": null,
+        "is_active": true,
+        "avatar_url": null,
+        "created_at": "2026-05-08T00:00:00.000Z",
+        "updated_at": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000003",
+        "email": "amr.elwan@guc.edu.eg",
+        "first_name": "Amr",
+        "last_name": "Elwan",
+        "company_name": null,
+        "is_active": true,
+        "avatar_url": null,
+        "created_at": "2026-05-08T00:00:00.000Z",
+        "updated_at": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000005",
+        "email": "aya.salem@guc.edu.eg",
+        "first_name": "Aya",
+        "last_name": "Salem",
+        "company_name": null,
+        "is_active": true,
+        "avatar_url": null,
+        "created_at": "2026-05-08T00:00:00.000Z",
+        "updated_at": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000006",
+        "email": "karim.mohamed@guc.edu.eg",
+        "first_name": "Karim",
+        "last_name": "Mohamed",
+        "company_name": null,
+        "is_active": true,
+        "avatar_url": null,
+        "created_at": "2026-05-08T00:00:00.000Z",
+        "updated_at": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000007",
+        "email": "mina.fahmy@guc.edu.eg",
+        "first_name": "Mina",
+        "last_name": "Fahmy",
+        "company_name": null,
+        "is_active": true,
+        "avatar_url": null,
+        "created_at": "2026-05-08T00:00:00.000Z",
+        "updated_at": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000004",
+        "email": "employer@acme.com",
+        "first_name": "Sara",
+        "last_name": "Ahmed",
+        "company_name": "Acme Technologies",
+        "is_active": true,
+        "avatar_url": null,
+        "created_at": "2026-05-08T00:00:00.000Z",
+        "updated_at": "2026-05-08T00:00:00.000Z"
+      }
+    ],
+    "user_roles": [
+      {
+        "user_id": "00000000-0000-0000-0000-000000000001",
+        "role": "admin"
+      },
+      {
+        "user_id": "00000000-0000-0000-0000-000000000002",
+        "role": "student"
+      },
+      {
+        "user_id": "00000000-0000-0000-0000-000000000003",
+        "role": "instructor"
+      },
+      {
+        "user_id": "00000000-0000-0000-0000-000000000005",
+        "role": "instructor"
+      },
+      {
+        "user_id": "00000000-0000-0000-0000-000000000006",
+        "role": "instructor"
+      },
+      {
+        "user_id": "00000000-0000-0000-0000-000000000007",
+        "role": "instructor"
+      },
+      {
+        "user_id": "00000000-0000-0000-0000-000000000004",
+        "role": "employer"
+      }
+    ],
+    "student_profiles": [
+      {
+        "id": "00000000-0000-0000-0000-000000000002",
+        "bio": "Computer engineering student interested in full-stack development and UI systems.",
+        "major": "Computer Engineering",
+        "skills": ["React", "TypeScript", "SQL"],
+        "contributor_score": 42,
+        "education": null,
+        "links": [],
+        "linkedin_url": "https://www.linkedin.com/in/nour-hassan",
+        "created_at": "2026-05-08T00:00:00.000Z",
+        "updated_at": "2026-05-08T00:00:00.000Z"
+      }
+    ],
+    "instructor_profiles": [
+      {
+        "id": "00000000-0000-0000-0000-000000000003",
+        "bio": "Course instructor with experience in introductory programming and applied systems.",
+        "education": [
+          {
+            "degree": "MSc Software Engineering",
+            "institution": "GUC",
+            "year": "2021"
+          }
+        ],
+        "research_interests": ["Educational technology", "Software tools"],
+        "created_at": "2026-05-08T00:00:00.000Z",
+        "updated_at": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000005",
+        "bio": "Instructor focused on data structures, algorithms, and system performance.",
+        "education": [
+          {
+            "degree": "MSc Computer Science",
+            "institution": "GUC",
+            "year": "2022"
+          }
+        ],
+        "research_interests": ["Algorithms", "Data science"],
+        "created_at": "2026-05-08T00:00:00.000Z",
+        "updated_at": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000006",
+        "bio": "Instructor who teaches software engineering principles and product development.",
+        "education": [
+          {
+            "degree": "MSc Computer Engineering",
+            "institution": "GUC",
+            "year": "2020"
+          }
+        ],
+        "research_interests": ["Software architecture", "Team collaboration"],
+        "created_at": "2026-05-08T00:00:00.000Z",
+        "updated_at": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000007",
+        "bio": "Lecturer focused on software engineering and product design.",
+        "education": [
+          {
+            "degree": "MSc Software Engineering",
+            "institution": "GUC",
+            "year": "2021"
+          }
+        ],
+        "research_interests": ["Human-computer interaction", "Web platforms"],
+        "created_at": "2026-05-08T00:00:00.000Z",
+        "updated_at": "2026-05-08T00:00:00.000Z"
+      }
+    ],
+    "employer_profiles": [
+      {
+        "id": "00000000-0000-0000-0000-000000000004",
+        "address": "Smart Village, Cairo",
+        "bio": "Software company looking for interns and junior developers.",
+        "contact_info": "hr@acme.com",
+        "latitude": 30.0625,
+        "longitude": 31.2049,
+        "location_address": "Smart Village, Cairo",
+        "reviewed_at": "2026-05-08T00:00:00.000Z",
+        "reviewed_by": "00000000-0000-0000-0000-000000000001",
+        "tax_document_path": "demo/acme-tax.pdf",
+        "verification_notes": "Approved for demo access.",
+        "verification_status": "approved",
+        "created_at": "2026-05-08T00:00:00.000Z",
+        "updated_at": "2026-05-08T00:00:00.000Z"
+      }
+    ],
+    "courses": [
+      {
+        "id": "course-cs101",
+        "code": "CS101",
+        "name": "Introduction to Programming",
+        "created_at": "2026-05-08T00:00:00.000Z",
+        "updated_at": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "course-cs202",
+        "code": "CS202",
+        "name": "Data Structures",
+        "created_at": "2026-05-08T00:00:00.000Z",
+        "updated_at": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "course-se301",
+        "code": "SE301",
+        "name": "Software Engineering",
+        "created_at": "2026-05-08T00:00:00.000Z",
+        "updated_at": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "course-cs303",
+        "code": "CS303",
+        "name": "Advanced Programming",
+        "created_at": "2026-05-08T00:00:00.000Z",
+        "updated_at": "2026-05-08T00:00:00.000Z"
+      }
+    ],
+    "instructor_courses": [
+      {
+        "id": "inst-course-1",
+        "course_id": "course-cs101",
+        "instructor_id": "00000000-0000-0000-0000-000000000003",
+        "created_at": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "inst-course-2",
+        "course_id": "course-cs202",
+        "instructor_id": "00000000-0000-0000-0000-000000000005",
+        "created_at": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "inst-course-3",
+        "course_id": "course-se301",
+        "instructor_id": "00000000-0000-0000-0000-000000000006",
+        "created_at": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "inst-course-4",
+        "course_id": "course-cs303",
+        "instructor_id": "00000000-0000-0000-0000-000000000007",
+        "created_at": "2026-05-08T00:00:00.000Z"
+      }
+    ],
+    "instructor_link_requests": [
+      {
+        "id": "link-req-1",
+        "instructor_id": "00000000-0000-0000-0000-000000000003",
+        "course_id": "course-cs101",
+        "action": "link",
+        "status": "pending",
+        "reviewed_by": null,
+        "created_at": "2026-05-08T11:00:00.000Z",
+        "reviewed_at": null
+      },
+      {
+        "id": "unlink-req-1",
+        "instructor_id": "00000000-0000-0000-0000-000000000003",
+        "course_id": "course-se301",
+        "action": "unlink",
+        "status": "pending",
+        "reviewed_by": null,
+        "created_at": "2026-05-08T11:05:00.000Z",
+        "reviewed_at": null
+      }
+    ],
+    "internships": [
+      {
+        "id": "internship-1",
+        "title": "Frontend Intern",
+        "employer_id": "00000000-0000-0000-0000-000000000004",
+        "details": "Build reusable UI components and assist with product pages.",
+        "duration": "8 weeks",
+        "deadline": "2026-06-15",
+        "skills": ["React", "TypeScript"],
+        "programming_languages": ["TypeScript", "JavaScript"],
+        "hiring_status": "hiring",
+        "archived": false,
+        "created_at": "2026-05-08T00:00:00.000Z",
+        "updated_at": "2026-05-08T00:00:00.000Z"
+      }
+    ],
+    "projects": [
+      {
+        "id": "project-1",
+        "title": "Campus Connect",
+        "description": "A student collaboration portal for projects and internships.",
+        "link": "https://example.com/campus-connect",
+        "is_active": true,
+        "is_admin_active": true,
+        "is_flagged": false,
+        "in_portfolio": true,
+        "student_id": "00000000-0000-0000-0000-000000000002",
+        "course_id": "course-se301",
+        "kind": "web",
+        "file_path": null,
+        "video_path": null,
+        "programming_languages": ["TypeScript", "CSS"],
+        "created_at": "2026-05-08T00:00:00.000Z",
+        "updated_at": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "project-bachelor-1",
+        "title": "Automated Career Tracker",
+        "description": "A bachelor project for tracking student career progress and supervisor feedback.",
+        "link": null,
+        "is_active": true,
+        "is_admin_active": true,
+        "is_flagged": false,
+        "in_portfolio": false,
+        "student_id": "00000000-0000-0000-0000-000000000002",
+        "course_id": "course-se301",
+        "kind": "bachelor",
+        "file_path": null,
+        "video_path": null,
+        "programming_languages": ["TypeScript", "Node.js"],
+        "created_at": "2026-05-11T00:00:00.000Z",
+        "updated_at": "2026-05-11T00:00:00.000Z"
+      }
+    ],
+    "completed_internships": [
+      {
+        "id": "completed-1",
+        "student_id": "00000000-0000-0000-0000-000000000002",
+        "internship_id": "internship-1",
+        "title": "UI Engineering Intern",
+        "company_name": "Acme Technologies",
+        "duration": "6 weeks",
+        "completed_on": "2026-04-10",
+        "created_at": "2026-05-08T00:00:00.000Z"
+      }
+    ],
+    "project_ratings": [
+      {
+        "id": "rating-1",
+        "project_id": "project-1",
+        "instructor_id": "00000000-0000-0000-0000-000000000003",
+        "rating": 5,
+        "created_at": "2026-05-08T00:00:00.000Z",
+        "updated_at": "2026-05-08T00:00:00.000Z"
+      }
+    ],
+    "project_comments": [
+      {
+        "id": "comment-1",
+        "project_id": "project-1",
+        "author_id": "00000000-0000-0000-0000-000000000003",
+        "body": "Great work on this project! The implementation looks solid.",
+        "task_id": null,
+        "thesis_id": null,
+        "created_at": "2026-05-08T00:00:00.000Z",
+        "updated_at": "2026-05-08T00:00:00.000Z"
+      }
+    ],
+    "project_collaborators": [],
+    "project_tasks": [
+      {
+        "id": "project-bachelor-1-task-1",
+        "project_id": "project-bachelor-1",
+        "student_id": "00000000-0000-0000-0000-000000000002",
+        "title": "Submit project plan",
+        "description": "Prepare and submit the bachelor project plan.",
+        "priority": "medium",
+        "status": "pending",
+        "is_completed": false,
+        "position": 0,
+        "assignee_id": null,
+        "due_date": null,
+        "created_at": "2026-05-11T00:00:00.000Z",
+        "updated_at": "2026-05-11T00:00:00.000Z"
+      },
+      {
+        "id": "project-bachelor-1-task-2",
+        "project_id": "project-bachelor-1",
+        "student_id": "00000000-0000-0000-0000-000000000002",
+        "title": "Upload first thesis draft",
+        "description": "Upload the first draft of your thesis for review.",
+        "priority": "medium",
+        "status": "pending",
+        "is_completed": false,
+        "position": 1,
+        "assignee_id": null,
+        "due_date": null,
+        "created_at": "2026-05-11T00:00:00.000Z",
+        "updated_at": "2026-05-11T00:00:00.000Z"
+      }
+    ],
+    "thesis_drafts": [
+      {
+        "id": "project-bachelor-1-thesis-1",
+        "project_id": "project-bachelor-1",
+        "label": "Proposal draft",
+        "created_at": "2026-05-11T00:00:00.000Z",
+        "updated_at": "2026-05-11T00:00:00.000Z"
+      }
+    ],
+    "notifications": [
+      {
+        "id": "notif-1",
+        "user_id": "00000000-0000-0000-0000-000000000002",
+        "type": "info",
+        "title": "Project approved",
+        "body": "Campus Connect has been approved for your portfolio.",
+        "link_url": "/dashboard/my-portfolio",
+        "is_read": false,
+        "created_at": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "notif-2",
+        "user_id": "00000000-0000-0000-0000-000000000003",
+        "type": "info",
+        "title": "New course link",
+        "body": "You are linked to Software Engineering.",
+        "link_url": "/dashboard/my-links",
+        "is_read": false,
+        "created_at": "2026-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "notif-4",
+        "user_id": "00000000-0000-0000-0000-000000000001",
+        "type": "link_request",
+        "title": "New instructor course link request",
+        "body": "Action: link",
+        "link_url": "/dashboard/link-requests",
+        "is_read": false,
+        "created_at": "2026-05-08T11:00:00.000Z"
+      },
+      {
+        "id": "notif-5",
+        "user_id": "00000000-0000-0000-0000-000000000001",
+        "type": "link_request",
+        "title": "New instructor course link request",
+        "body": "Action: unlink",
+        "link_url": "/dashboard/link-requests",
+        "is_read": false,
+        "created_at": "2026-05-08T11:05:00.000Z"
+      },
+      {
+        "id": "notif-3",
+        "user_id": "00000000-0000-0000-0000-000000000004",
+        "type": "success",
+        "title": "Employer approved",
+        "body": "Your company profile is ready to use.",
+        "link_url": "/dashboard/company",
+        "is_read": false,
+        "created_at": "2026-05-08T00:00:00.000Z"
+      }
+    ],
+    "applications": [
+      {
+        "id": "app-1",
+        "internship_id": "internship-1",
+        "student_id": "00000000-0000-0000-0000-000000000002",
+        "cover_letter": "I am very interested in this frontend internship opportunity. I have experience with React and TypeScript.",
+        "status": "applied",
+        "applied_at": "2026-05-08T10:00:00.000Z"
+      }
+    ],
+    "student_favorites": [
+      {
+        "id": "fav-1",
+        "student_id": "00000000-0000-0000-0000-000000000004",
+        "kind": "portfolio",
+        "target_id": "00000000-0000-0000-0000-000000000002",
+        "created_at": "2026-05-08T00:00:00.000Z"
+      }
+    ]
+  },
+  "storage": {
+    "avatars": {},
+    "employer-documents": {},
+    "project-files": {},
+    "project-videos": {}
+  }
+}
