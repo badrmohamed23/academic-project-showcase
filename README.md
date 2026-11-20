@@ -71,6 +71,22 @@ Core engineering decisions:
 
 ---
 
+## 📸 Screenshots
+
+| Landing | Student Dashboard |
+| --- | --- |
+| ![Landing page](docs/screenshots/01-landing.png) | ![Student dashboard](docs/screenshots/02-student-dashboard.png) |
+
+| Project Discovery | My Projects |
+| --- | --- |
+| ![Project search](docs/screenshots/03-project-search.png) | ![My projects](docs/screenshots/04-my-projects.png) |
+
+| Statistics | Admin User Management |
+| --- | --- |
+| ![Statistics](docs/screenshots/05-statistics.png) | ![Admin user management](docs/screenshots/06-admin-users.png) |
+
+---
+
 ## 📁 Project Architecture / File Structure
 
 ```
